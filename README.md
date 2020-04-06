@@ -10,9 +10,9 @@
 7. [Автор](#author)
 
 
-<a name='#structure'>
+<a name='#structure'></a>
 Структура проекта
-    ./src/index.html
+|./src/index.html
     ./src – папка с файлами проекта
     ./src/blocks – папка, содержащая структуру папок и файлов стилей в соответствии со спецификацией БЭМ
     ./src/images – папка с изображениями
@@ -24,7 +24,7 @@
     ./routes - папка, содержащая роуты для обработки запросов пользователей
 
 
-<a name='#install'>
+<a name='#install'></a>
 Этапы установки
 Клонировать репозиторий
 
@@ -40,7 +40,7 @@ git clone https://github.com/Tatiana81/project12.git
 
  c. Запустить сервер для обработки запросов пользователей командой npm run start
 
-<a name='config'>
+<a name='config'></a>
 Конфигурационные файлы проекта:
 webpack.config.js содержит правила обработки файлов js, css, файлов изображений и шрифтов
 
@@ -54,6 +54,8 @@ postcss.config.js - настройка поддержки css браузерам
 
 app.js - точка входа. Скрипт, который запускается при старте сервера
 
+
+<a name='modules'></a>
 Используемые модули
 express: 6.4.14
 @babel/cli: 7.8.4
@@ -79,8 +81,11 @@ webpack-cli: 3.3.11,
 webpack-dev-server: 3.10.3, 
 webpack-md5-hash: 0.0.6
 
+<a name='version'></a>
 Версия: 1.0.1
 
+<a name='link'></a>
 Ссылка на адрес страницы: https://tatiana81.github.io/project12/
 
+<a name='author'></a>
 Автор: Суроева Татьяна
