@@ -10,7 +10,7 @@
 7. [Автор](#author)
 
 
-<a id='#structure'></a>
+<a name='#structure'></a>
 Структура проекта
     ./src/index.html
     ./src – папка с файлами проекта
