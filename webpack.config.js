@@ -42,6 +42,7 @@ module.exports = {
     resolve: {
         modules: [__dirname + '/src/pages', __dirname + '/node_modules', __dirname + '/src/js', __dirname + '/src/images']
     },
+    devServer: { port: 3000 },
     plugins: [
         new MiniCssExtractPlugin({
             filename: 'style.[contenthash].css'
