@@ -18,14 +18,14 @@
         "webpack-cli": "^3.3.11"
     },
     "scripts": {
-        "dev": "NODE_ENV='development' webpack-dev-server --mode development --open --watch --port 3000",
+        "dev": "NODE_ENV='development' webpack-dev-server --mode development --open --watch --port 3000 --public='localhost:3000/public'",
         "start": "nodemon app.js"
     },
     "repository": {
         "type": "git",
         "url": "git+https://github.com/Tatiana81/project12.git"
     },
-    "keywords": [],
+    "keywords": [{ "contentBase": "./public" }],
     "author": "",
     "license": "ISC",
     "bugs": {
