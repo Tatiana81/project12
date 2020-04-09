@@ -39,13 +39,8 @@
 
 <a name='config'></a>
 ### Конфигурационные файлы проекта:
-    webpack.config.js содержит правила обработки файлов js, css, файлов изображений и шрифтов
 
     package.json – общие настройки npm, включая скрипты запуска, точку входа, установленные модули.
-
-    babel.config.js – настройка поддержки javascript браузерами
-
-    postcss.config.js - настройка поддержки css браузерами
 
     .nojekyll – обеспечение совместимости со структурой проекта, выполненной в соответствии с спецификацией БЭМ
 
@@ -54,29 +49,16 @@
 
 <a name='modules'></a>
 ### Используемые модули
-    express: 6.4.14
-    @babel/cli: 7.8.4
-    @babel/core: 7.9.0
-    @babel/preset-env: 7.9.0
-    babel-loader: 8.1.0
-    css-loader: 3.4.2, 
-    exports-loader: 0.7.0, 
-    file-loader: 6.0.0, 
-    gh-pages: 2.2.0, 
-    html-webpack-plugin: 3.2.0, 
-    image-webpack-loader: 6.0.0, 
-    imports-loader": 0.8.0, 
-    mini-css-extract-plugin: 0.9.0, 
-    optimize-css-assets-webpack-plugin: 5.0.3, 
-    postcss-import": 12.0.1, 
-    postcss-loader": 3.0.0, 
-    postcss-preset-env: 6.7.0, 
-    style-loader: 1.1.3, 
-    svg-inline-loader: 0.8.2, 
-    webpack: 4.42.0, 
-    webpack-cli: 3.3.11, 
-    webpack-dev-server: 3.10.3, 
-    webpack-md5-hash: 0.0.6
+     body-parser: 1.19.0,
+     eslint: 6.8.0,
+     eslint-config-airbnb-base: 14.1.0,
+     eslint-plugin-import: 2.20.2,
+     express: 4.17.1,
+     html-webpack-plugin: 3.2.0,
+     nodemon: 2.0.2,
+     webpack-dev-server: 3.10.3
+     webpack: 4.42.1,
+     webpack-cli: 3.3.11
 
 <a name='version'></a>
 ### Версия: 1.0.1
