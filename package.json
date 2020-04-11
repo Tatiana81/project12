@@ -2,24 +2,21 @@
     "name": "project12",
     "version": "1.0.0",
     "description": "",
-    "main": "",
+    "main": "app.js",
     "dependencies": {
         "body-parser": "^1.19.0",
-        "eslint": "^6.8.0",
-        "eslint-config-airbnb-base": "^14.1.0",
-        "eslint-plugin-import": "^2.20.2",
         "express": "^4.17.1",
         "html-webpack-plugin": "^3.2.0",
-        "nodemon": "^2.0.2",
-        "webpack-dev-server": "^3.10.3"
+        "nodemon": "^2.0.2"
     },
     "devDependencies": {
-        "webpack": "^4.42.1",
-        "webpack-cli": "^3.3.11"
+        "eslint": "^6.8.0",
+        "eslint-config-airbnb-base": "^14.1.0",
+        "eslint-plugin-import": "^2.20.2"
     },
     "scripts": {
-        "dev": "NODE_ENV='development' webpack-dev-server --mode development --open --watch --port 3000 --public='localhost:3000/public'",
-        "start": "nodemon app.js"
+        "dev": "NODE_ENV=development nodemon app.js --watch server",
+        "start": "node app.js"
     },
     "repository": {
         "type": "git",
