@@ -17,4 +17,6 @@ app.use((req, res) => {
     res.status(404).send({ message: 'Запрашиваемый ресурс не найден' });
 });
 
-app.listen(PORT, () => { console.log(`Server started on port ${PORT}`); });
+app.listen(PORT, () => {
+    console.log(`Server started on port ${PORT}`);
+});

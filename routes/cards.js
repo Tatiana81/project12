@@ -2,8 +2,8 @@ const router = require('express').Router();
 const fs = require('fs');
 const path = require('path');
 
-let file = '';
-let cardsBase = new Array();
+let file;
+let cardsBase;
 
 // eslint-disable-next-line no-undef
 try { file = fs.readFileSync(path.join(__dirname, '../data/cards.json')); } catch (err) { console.log(err); }

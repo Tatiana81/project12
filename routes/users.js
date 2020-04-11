@@ -3,8 +3,8 @@ const router = require('express').Router();
 const fs = require('fs');
 const path = require('path');
 
-let file = '';
-let usersBase = new Array();
+let file;
+let usersBase;
 // eslint-disable-next-line no-undef
 try { file = fs.readFileSync(path.join(__dirname, '../data/users.json')); } catch (err) { console.log(err); }
 
