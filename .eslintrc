@@ -1,7 +1,3 @@
 {
-  "extends": "airbnb-base",
-  "rules": {
-    "indent": ["error", 4],
-    "no-trailing-spaces": true
-  }
+  "extends": "airbnb-base"
 }
